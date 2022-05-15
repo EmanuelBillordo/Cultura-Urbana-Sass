@@ -37,6 +37,13 @@ h1, h2, h3 {
 /*----BARRA DE NAVEGACION (NO BOOTSTRAP)-------*/
 
 @import 'navbar';
+@mixin flexible ($dis, $direction, $just, $align, $text){
+    display: $dis;
+    flex-direction: $direction;
+    justify-content: $just;
+    align-items: $align;
+    text-align: $text;
+}
 
 
 /*------CUERPO DE PAGINA MAIN-----*/
@@ -76,11 +83,7 @@ h1, h2, h3 {
     }
 
     .contenedor-carrusel {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+        @include flexible(flex, column, center , center , center )
         width: 75%;
         padding-left: 25%;
         padding-bottom: 1rem;
