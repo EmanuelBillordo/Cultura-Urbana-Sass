@@ -636,6 +636,62 @@ footer {
   .caja-formulario {
     font-size: x-large; } }
 
+@media screen and (min-width: 1440px) {
+  .cuerpo-cards {
+    display: inline-block;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+  .contenedor-header {
+    position: fixed;
+    top: 0%;
+    z-index: 10; }
+  .banner-index {
+    padding-top: 5rem; }
+  .contenedor-header .logo img {
+    width: 4rem; }
+  /*--------LOGO-------*/
+  .column-2 {
+    display: block;
+    justify-content: center;
+    text-align: center; }
+    .column-2 h2 {
+      padding-top: 2rem; }
+    .column-2 p {
+      font-size: medium; }
+  /*--------BANNER Y ASIDE-------*/
+  .banner-aside {
+    width: 100%;
+    padding: 0%;
+    padding-left: 2rem;
+    padding-top: 3rem; }
+    .banner-aside img {
+      width: 90%;
+      border-radius: 2rem; }
+  .aside-texto {
+    width: 100%;
+    padding-top: 6rem; }
+    .aside-texto h3 {
+      font-size: 2rem; }
+    .aside-texto p {
+      font-size: medium; }
+  /*--------PRODUCTOS-------*/
+  .contenedor-principal-card {
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 2rem; }
+  .card img {
+    width: 50%;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 5px black); }
+  .section-contacto div,
+  .tienda-contacto,
+  .caja-formulario {
+    font-size: x-large; } }
+
+/*-----ANIMACIONES Y TRANSICIONES-------*/
 .titulo-index:hover {
   transition: .5s linear;
   text-decoration: none;

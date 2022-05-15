@@ -678,14 +678,8 @@ footer {
     }
 }
 
-
-    
-    
-
 @media screen and (min-width:600px) {
-    
-    
-    
+
     /*----productos----*/
 
     .contenedor-principal-card {
@@ -833,137 +827,218 @@ footer {
 
 }   
 
-    @media screen and (min-width:1024px) {
-        .cuerpo-cards {
-            display: inline-block;
-            width: 33%;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        .contenedor-header {
-            position: fixed;
-            top: 0%;
-            z-index: 10;
+@media screen and (min-width:1024px) {
+    .cuerpo-cards {
+        display: inline-block;
+        width: 33%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .contenedor-header {
+        position: fixed;
+        top: 0%;
+        z-index: 10;
+    }
+
+    .banner-index {
+        padding-top: 5rem;
+    }
+    .contenedor-header .logo img {
+        width: 4rem;
+    }
+    /*--------LOGO-------*/
+    .column-2 {
+        display: block;
+        justify-content: center;
+        text-align: center;
+
+        h2 {
+            padding-top: 2rem;
         }
 
-        .banner-index {
-            padding-top: 5rem;
+        p {
+            font-size: medium;
         }
-        .contenedor-header .logo img {
-            width: 4rem;
-        }
-        /*--------LOGO-------*/
-        .column-2 {
-            display: block;
-            justify-content: center;
-            text-align: center;
+    }
+   
+    /*--------BANNER Y ASIDE-------*/
+    .banner-aside {
+        width: 100%;
+        padding: 0%;
+        padding-left: 2rem;
+        padding-top: 3rem;
 
-            h2 {
-                padding-top: 2rem;
-            }
-
-            p {
-                font-size: medium;
-            }
-        }
-       
-        /*--------BANNER Y ASIDE-------*/
-        .banner-aside {
-            width: 100%;
-            padding: 0%;
-            padding-left: 2rem;
-            padding-top: 3rem;
-
-            img {
-                width: 90%;
-                border-radius: 2rem;
-            }
-        }
-        .aside-texto {
-            width: 100%;
-            padding-top: 6rem;
-
-            h3 {
-                font-size: 2rem;
-            }
-
-            p {
-                font-size: medium;
-            }
-        }
-        /*--------PRODUCTOS-------*/
-        .contenedor-principal-card {
-            width: 100%;
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: repeat(3, 1fr);
-            gap: 2rem;
-        }
-        .card img {
-            width: 50%;
+        img {
+            width: 90%;
             border-radius: 2rem;
-            filter: drop-shadow(5px 5px 5px black);
         }
-        .section-contacto div,
-        .tienda-contacto,
-        .caja-formulario {
-            font-size: x-large;
+    }
+    .aside-texto {
+        width: 100%;
+        padding-top: 6rem;
+
+        h3 {
+            font-size: 2rem;
         }
-        
-        
+
+        p {
+            font-size: medium;
+        }
+    }
+    /*--------PRODUCTOS-------*/
+    .contenedor-principal-card {
+        width: 100%;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    .card img {
+        width: 50%;
+        border-radius: 2rem;
+        filter: drop-shadow(5px 5px 5px black);
+    }
+    .section-contacto div,
+    .tienda-contacto,
+    .caja-formulario {
+        font-size: x-large;
     }
 
-    .titulo-index:hover {
-        transition: .5s linear;
-        text-decoration: none;
-        color: #858786;
-        text-shadow: 0 0 10px black,
-        0 0 20px black,
-        0 0 30px black
-        ;
-        font-size: xx-large;
+    
+}
+
+@media screen and (min-width:1440px) {
+    .cuerpo-cards {
+        display: inline-block;
+        width: 33%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .contenedor-header {
+        position: fixed;
+        top: 0%;
+        z-index: 10;
     }
 
-    h3:hover {
-        transition: .5s linear;
-        text-decoration: none;
-        color: #858786;
-        text-shadow: 0 0 10px black,
-        0 0 20px black,
-        0 0 30px black
-        ;
-        font-size: xx-large
+    .banner-index {
+        padding-top: 5rem;
+    }
+    .contenedor-header .logo img {
+        width: 4rem;
+    }
+    /*--------LOGO-------*/
+    .column-2 {
+        display: block;
+        justify-content: center;
+        text-align: center;
+
+        h2 {
+            padding-top: 2rem;
+        }
+
+        p {
+            font-size: medium;
+        }
+    }
+   
+    /*--------BANNER Y ASIDE-------*/
+    .banner-aside {
+        width: 100%;
+        padding: 0%;
+        padding-left: 2rem;
+        padding-top: 3rem;
+
+        img {
+            width: 90%;
+            border-radius: 2rem;
+        }
+    }
+    .aside-texto {
+        width: 100%;
+        padding-top: 6rem;
+
+        h3 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: medium;
+        }
+    }
+    /*--------PRODUCTOS-------*/
+    .contenedor-principal-card {
+        width: 100%;
+        grid-template-columns: repeat(4, 1fr); 
+        grid-template-rows: repeat(5, 1fr);
+        gap: 2rem;
+    }
+    .card img {
+        width: 50%;
+        border-radius: 2rem;
+        filter: drop-shadow(5px 5px 5px black);
+    }
+    .section-contacto div,
+    .tienda-contacto,
+    .caja-formulario {
+        font-size: x-large;
     }
 
+    
+}
+/*-----ANIMACIONES Y TRANSICIONES-------*/
 
-    .card img:hover {
-        box-shadow: 5px 10px 20px silver;
-        opacity: 95%;
-    }
+.titulo-index:hover {
+    transition: .5s linear;
+    text-decoration: none;
+    color: #858786;
+    text-shadow: 0 0 10px black,
+    0 0 20px black,
+    0 0 30px black
+    ;
+    font-size: xx-large;
+}
 
-    .navbar ul li:hover {
-        text-shadow: 0 0 5px #E1E5F2,
-        0 0 10px #E1E5F2,
-        0 0 15px #E1E5F2
-        ;
+h3:hover {
+    transition: .5s linear;
+    text-decoration: none;
+    color: #858786;
+    text-shadow: 0 0 10px black,
+    0 0 20px black,
+    0 0 30px black
+    ;
+    font-size: xx-large
+}
 
-    }
 
-    .navbar-footer ul li:hover {
-        text-decoration: none;
-        color: white;
-        text-shadow:0 0 5px black,
-        0 0 10px black,
-        0 0 15px black
-        ; 
-    }
+.card img:hover {
+    box-shadow: 5px 10px 20px silver;
+    opacity: 95%;
+}
 
-    .redes-sociales-footer ul li img:hover {
-        box-shadow: 0 0 10px black,
-        0 0 20px black,
-        0 0 30px black
-        ;
+.navbar ul li:hover {
+    text-shadow: 0 0 5px #E1E5F2,
+    0 0 10px #E1E5F2,
+    0 0 15px #E1E5F2
+    ;
 
-        border-radius: 40%;
-    }
+}
+
+.navbar-footer ul li:hover {
+    text-decoration: none;
+    color: white;
+    text-shadow:0 0 5px black,
+    0 0 10px black,
+    0 0 15px black
+    ; 
+}
+
+.redes-sociales-footer ul li img:hover {
+    box-shadow: 0 0 10px black,
+    0 0 20px black,
+    0 0 30px black
+    ;
+
+    border-radius: 40%;
+}
 
