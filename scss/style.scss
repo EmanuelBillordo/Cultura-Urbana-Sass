@@ -37,6 +37,8 @@ h1, h2, h3 {
 /*----BARRA DE NAVEGACION (NO BOOTSTRAP)-------*/
 
 @import 'navbar';
+
+/*----MIXING-----*/
 @mixin flexible ($dis, $direction, $just, $align, $text){
     display: $dis;
     flex-direction: $direction;
@@ -44,7 +46,12 @@ h1, h2, h3 {
     align-items: $align;
     text-align: $text;
 }
-
+/*----MAPS----*/
+$headings: (
+h4: smaller,
+h5: smaller,
+h6: smaller 
+);
 
 /*------CUERPO DE PAGINA MAIN-----*/
 
@@ -83,7 +90,7 @@ h1, h2, h3 {
     }
 
     .contenedor-carrusel {
-        @include flexible(flex, column, center , center , center )
+        @include flexible(flex, column, center , center , center );
         width: 75%;
         padding-left: 25%;
         padding-bottom: 1rem;
@@ -371,19 +378,19 @@ footer {
                 opacity: 95%;
             }
         }
-
+        $h4: map-get($headings, h4);
         h4 {
             padding-top: 5px;
             margin-block-end: 0%;
             margin-block-start: 0%;
-            font-size: smaller;
+            font-size: $h4;
         }
-
+        $h5: map-get($headings, h5);
         h5 {
             padding-top: 5px;
             margin-block-end: 0%;
             margin-block-start: 0%;
-            font-size: smaller;
+            font-size: $h5;
             text-align: center;
         }
 
