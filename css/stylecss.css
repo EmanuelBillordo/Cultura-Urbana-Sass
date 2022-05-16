@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+.card {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.avatar {
+  width: 50%;
+  border-radius: 2rem;
+  filter: drop-shadow(5px 5px 5px black); }
+
 /*--------Card de Productos*/
 body {
   margin: 0%;
@@ -44,6 +55,7 @@ h1, h2, h3 {
 
 /*----MIXING-----*/
 /*----MAPS----*/
+/*----EXTEND----*/
 /*------CUERPO DE PAGINA MAIN-----*/
 .contenedor-main {
   width: 100%;
@@ -117,28 +129,6 @@ h1, h2, h3 {
       color: #858786;
       text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black;
       font-size: xx-large; }
-  .contenedor-main .banner-aside {
-    width: 100%;
-    padding-top: 1rem; }
-    .contenedor-main .banner-aside img {
-      width: 100%; }
-    .contenedor-main .banner-aside .aside-texto {
-      display: flex;
-      padding: 1rem;
-      justify-content: center;
-      align-items: center; }
-      .contenedor-main .banner-aside .aside-texto h3 {
-        font-size: x-large;
-        text-decoration: underline;
-        padding-right: 1rem; }
-        .contenedor-main .banner-aside .aside-texto h3:hover {
-          transition: .5s linear;
-          text-decoration: none;
-          color: #858786;
-          text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black;
-          font-size: xx-large; }
-      .contenedor-main .banner-aside .aside-texto p {
-        font-size: small; }
   .contenedor-main .article-presentaciones {
     display: flex;
     justify-content: center;

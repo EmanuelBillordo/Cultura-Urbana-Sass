@@ -1,6 +1,13 @@
-$background-color-primary: whitesmoke;
-$ul-style: none;
-$a-textdeco: none;
-$a-color: #000000e1;
-$html-fonts: 'Lato', sans-serif;
-$h-fonts: 'Bebas Neue', cursive, sans-serif;
+
+.card {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.avatar {
+    width: 50%;
+        border-radius: 2rem;
+        filter: drop-shadow(5px 5px 5px black);
+}

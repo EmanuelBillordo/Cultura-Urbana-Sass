@@ -1,0 +1,8 @@
+.ucard{
+    @extend .card;
+    
+
+    img {
+        @extend .avatar;
+    }
+}

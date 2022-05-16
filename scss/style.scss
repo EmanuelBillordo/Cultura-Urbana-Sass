@@ -6,6 +6,8 @@ $html-fonts: 'Lato', sans-serif;
 $h-fonts: 'Bebas Neue', cursive, sans-serif;
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import 'varianteglobal';
 /*--------Card de Productos*/
 
 body {
@@ -53,6 +55,10 @@ h5: smaller,
 h6: smaller 
 );
 
+
+/*----EXTEND----*/
+
+
 /*------CUERPO DE PAGINA MAIN-----*/
 
 .contenedor-main {
@@ -61,7 +67,7 @@ h6: smaller
     padding-top: 4rem;
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 1%, rgba(68,83,82,1) 100%);
-
+    
     .banner-pagina {
         width: 100%;
     
@@ -153,43 +159,6 @@ h6: smaller
             0 0 30px black
             ;
             font-size: xx-large;
-        }
-    }
-
-    .banner-aside {
-        width: 100%;
-        padding-top: 1rem;
-
-        img {
-            width: 100%;
-        }
-
-        .aside-texto {
-            display: flex;
-            padding: 1rem;
-            justify-content: center;
-            align-items: center;
-
-            h3 {
-                font-size: x-large;
-                text-decoration: underline;
-                padding-right: 1rem;
-
-                &:hover {
-                    transition: .5s linear;
-                    text-decoration: none;
-                    color: #858786;
-                    text-shadow: 0 0 10px black,
-                    0 0 20px black,
-                    0 0 30px black
-                    ;
-                    font-size: xx-large;
-                }
-            }
-
-            p {
-                font-size: small;
-            }
         }
     }
 
