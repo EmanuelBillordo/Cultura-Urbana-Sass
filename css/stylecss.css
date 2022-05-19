@@ -15,6 +15,7 @@
 
 /*----Ajustes globales----*/
 body {
+  box-sizing: border-box;
   margin: 0%;
   background-color: whitesmoke; }
 
@@ -53,6 +54,9 @@ h1, h2, h3 {
       text-shadow: 0 0 5px #E1E5F2, 0 0 10px #E1E5F2, 0 0 15px #E1E5F2; }
 
 /*------CUERPO DE PAGINA MAIN-----*/
+.contenedor-header {
+  width: 100%; }
+
 .contenedor-main {
   width: 100%;
   padding-top: 4rem;
@@ -97,10 +101,10 @@ h1, h2, h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    .contenedor-main .section-index .card-group {
-      background-color: whitesmoke; }
-      .contenedor-main .section-index .card-group .contenedor-card {
-        padding: 1.5rem; }
+    .contenedor-main .section-index .card-group .contenedor-card {
+      padding: 1.5rem; }
+      .contenedor-main .section-index .card-group .contenedor-card .ucard {
+        background-color: whitesmoke; }
         .contenedor-main .section-index .card-group .contenedor-card .ucard img {
           border-radius: 10%;
           width: 80%;
