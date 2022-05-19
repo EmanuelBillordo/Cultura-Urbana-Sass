@@ -142,7 +142,7 @@ h1, h2, h3 {
         }
 
     }
-     
+    
     .titulo-index {
     display: flex;
     justify-content: center;
@@ -212,12 +212,12 @@ h1, h2, h3 {
     
         @media only screen and (max-width: 600px) {
             .btn-flotante {
-               font-size: 14px;
-               padding: 12px 20px;
-               bottom: 20px;
-               right: 20px;
-           }
-       } 
+                font-size: 14px;
+                padding: 12px 20px;
+                bottom: 20px;
+                right: 20px;
+            }
+    } 
     }
 
     .nav-pages {
@@ -472,12 +472,12 @@ footer {
 
     @media only screen and (max-width: 600px) {
         .btn-flotante {
-           font-size: 14px;
-           padding: 12px 20px;
-           bottom: 20px;
-           right: 20px;
-       }
-   } 
+            font-size: 14px;
+            padding: 12px 20px;
+            bottom: 20px;
+            right: 20px;
+        }
+} 
 }
 
 /*----PAGINA "SALE"----*/
@@ -551,12 +551,12 @@ footer {
     
         @media only screen and (max-width: 600px) {
             .btn-flotante {
-               font-size: 14px;
-               padding: 12px 20px;
-               bottom: 20px;
-               right: 20px;
-           }
-       } 
+                font-size: 14px;
+                padding: 12px 20px;
+                bottom: 20px;
+                right: 20px;
+            }
+        } 
     }
     .devo-prueba img {
         width: auto;
@@ -717,7 +717,7 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-  
+
     .contenedor-principal-card {
         width: 100%;
         display: grid;
