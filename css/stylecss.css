@@ -226,8 +226,8 @@ footer {
     width: 85%;
     padding-left: 15%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     gap: 35px; }
   .main-productos .card {
     display: inline-block;
