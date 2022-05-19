@@ -150,7 +150,7 @@ h1, h2, h3 {
     color: #ffffff;
     border-radius: 5px;
     letter-spacing: 2px;
-    background-color: #D36135;
+    background-color: #95B8D1;
     padding: 18px 30px;
     position: fixed;
     bottom: 40px;
@@ -159,7 +159,7 @@ h1, h2, h3 {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     z-index: 99; }
     .contenedor-main .btn-flotante:hover {
-      background-color: #2c2fa5;
+      background-color: #666A86;
       box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
       transform: translateY(-7px); }
     @media only screen and (max-width: 600px) {
@@ -223,12 +223,12 @@ footer {
     text-decoration: underline;
     padding-top: 1rem; }
   .main-productos .contenedor-principal-card {
-    width: 85%;
-    padding-left: 15%;
+    width: 90%;
+    padding-left: 10%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 35px; }
+    grid-template-columns: repeat(auto, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 50px; }
   .main-productos .card {
     display: inline-block;
     justify-content: center;
@@ -301,7 +301,8 @@ footer {
   padding-top: 5rem; }
   .main-devolucion .section-contacto {
     width: 100%;
-    padding-top: 4rem; }
+    padding-top: 2rem;
+    padding-bottom: 3rem; }
     .main-devolucion .section-contacto div {
       width: 90%;
       padding-left: 1rem;
@@ -585,7 +586,7 @@ footer {
   .caja-formulario {
     font-size: x-large; } }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1400px) {
   .cuerpo-cards {
     display: inline-block;
     width: 33%;
