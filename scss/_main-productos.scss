@@ -1,0 +1,70 @@
+.main-productos {
+    
+    padding-top: 5rem;
+
+    .contenedor-carrusel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 70%;
+        padding-left: 30%;
+        padding-bottom: 1rem;
+    }
+
+    .titulo-index {
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+        padding-top: 1rem;
+    }
+
+    .contenedor-principal-card {
+        width: 90%;
+        padding-left: 10%;
+        display: grid;
+        grid-template-columns: repeat(auto, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 50px;
+    }
+
+    .card {
+        display:inline-block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        img {
+            padding-top: 15px;
+            width: 60%;
+            border-radius: 2rem;
+            filter: drop-shadow(5px 5px 5px silver);
+
+            &:hover {
+                box-shadow: 5px 10px 20px silver;
+                opacity: 95%;
+            }
+        }
+        $h4: map-get($headings, h4);
+        h4 {
+            padding-top: 5px;
+            margin-block-end: 0%;
+            margin-block-start: 0%;
+            font-size: $h4;
+        }
+        $h5: map-get($headings, h5);
+        h5 {
+            padding-top: 5px;
+            margin-block-end: 0%;
+            margin-block-start: 0%;
+            font-size: $h5;
+            text-align: center;
+        }
+
+        span {
+            font-size: x-small;
+            font-style: italic;
+        }
+    }
+}

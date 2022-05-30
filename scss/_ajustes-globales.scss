@@ -1,0 +1,22 @@
+body {
+    box-sizing: border-box;
+    margin: 0%;
+    background-color: $background-color-primary;
+}
+
+ul {
+    list-style-type: $ul-style;
+}
+
+a {
+    text-decoration: $a-textdeco;
+    color: $a-color;
+}
+
+html {
+    font-family: $html-fonts;
+}
+
+h1, h2, h3 {
+    font-family: $h-fonts;
+}

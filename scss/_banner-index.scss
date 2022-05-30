@@ -1,0 +1,26 @@
+.banner-pagina {
+    width: 100%;
+
+    img {
+        width: 100vw;
+    }
+}
+.footer-banner {
+    width: 100%;
+    height: auto;
+    background-color: #080708;
+    align-items: center;
+    text-align: center;
+
+    span {
+        color: whitesmoke;
+        font-weight: bold;
+    }
+
+    p {
+        color: whitesmoke;
+        font-weight: lighter;
+        font-style: italic;
+        font-size: small;
+    }
+}

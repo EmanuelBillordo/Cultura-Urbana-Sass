@@ -1,0 +1,281 @@
+@media screen and (min-width:480px) {
+    /*----TABLAS DE TALLES, PRODUCTOS----*/
+    .tabla-de-talles {
+        width: 100%;
+    }
+    .contenedor-guia,
+    .tabla-guia {
+        width: 100%;
+        margin: 0%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    /*----PAGINA "CONTACTO----*/
+    .caja-formulario {
+        width: 100%;
+        display: flex;
+
+        form {
+            width: 50vw;
+        }
+
+    }
+
+    .section-contacto {
+        width: 100%;
+
+        div {
+            width: 80%;
+            padding-left: 2rem;
+            font-size: medium;
+        }
+    }
+    /*----PAGINA "SALE"----*/
+    .titulo-sale {
+        width: 100%;
+        margin-block-start: 0%;
+    }
+    /*--------FOOTER------*/
+    footer {
+        width: 100%;
+    }
+    .contenedor-footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navbar-footer {
+        display: inline-block;
+
+        ul li {
+            font-size: medium;
+        }
+    }
+    .redes-sociales-footer {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:600px) {
+
+    /*----productos----*/
+
+    .contenedor-principal-card {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 12px;
+    }
+
+    .titulo-index {
+        margin-block-end: 0%;
+        margin-block-start: 0%;
+        padding-bottom: 2rem;
+
+        h2 {
+            font-size: 2rem;
+            padding-bottom: 1%;
+            padding-top: 1%;
+        }
+    }
+
+    /*----TABLAS DE TALLES, PRODUCTOS----*/
+
+    .tabla-de-talles {
+        width: 100%;
+    }
+    .contenedor-guia,
+    .tabla-guia {
+        width: 100%;
+        margin: 0%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    /*----PAGINA "CONTACTO----*/
+    .caja-formulario {
+        width: 100%;
+        display: flex;
+
+        form {
+            width: 50vw;
+        }
+
+    }
+
+    .section-contacto {
+        width: 100%;
+
+        div {
+            width: 80%;
+            padding-left: 2rem;
+            font-size: medium;
+        }
+    }
+    /*----PAGINA "SALE"----*/
+    .titulo-sale {
+        width: 100%;
+        margin-block-start: 0%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    main {
+        padding-top: 4rem;
+    }
+    /*--------Banner y Aside*/
+    .titulo-index {
+        font-size: x-large;
+    }
+    aside {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contenedor-principal-card {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 1rem;
+    }
+
+    .titulo-index {
+        margin-block-end: 0%;
+        margin-block-start: 0%;
+        padding-bottom: 2rem;
+
+        h2 {
+            font-size: 3rem;
+            padding-bottom: 1%;
+            padding-top: 1%;
+        }
+    }
+    .card {
+        img {
+            width: 70%;
+            border-radius: 2rem;
+            filter: drop-shadow(5px 5px 5px black);
+        }
+
+        h4 {
+            font-size: medium;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        h5 {
+            font-size: medium;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        span {
+            font-size: medium;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    }
+
+}   
+
+@media screen and (min-width:1024px) {
+    .cuerpo-cards {
+        display: inline-block;
+        width: 33%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .contenedor-header {
+        position: fixed;
+        top: 0%;
+        z-index: 10;
+    }
+
+    .banner-index {
+        padding-top: 5rem;
+    }
+    .contenedor-header .logo img {
+        width: 4rem;
+    }
+    /*--------LOGO-------*/
+    .column-2 {
+        display: block;
+        justify-content: center;
+        text-align: center;
+
+        h2 {
+            padding-top: 2rem;
+        }
+
+        p {
+            font-size: medium;
+        }
+    }
+    
+    /*--------PRODUCTOS-------*/
+    .contenedor-principal-card {
+        width: 100%;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    .card img {
+        width: 50%;
+        border-radius: 2rem;
+        filter: drop-shadow(5px 5px 5px black);
+    }
+    .section-contacto div,
+    .tienda-contacto,
+    .caja-formulario {
+        font-size: x-large;
+    }
+
+    
+}
+
+@media screen and (min-width:1400px) {
+    .cuerpo-cards {
+        display: inline-block;
+        width: 33%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .contenedor-header {
+        position: fixed;
+        top: 0%;
+        z-index: 10;
+    }
+
+    .banner-index {
+        padding-top: 5rem;
+    }
+    .contenedor-header .logo img {
+        width: 4rem;
+    }
+
+    /*--------PRODUCTOS-------*/
+    .contenedor-principal-card {
+        width: 100%;
+        grid-template-columns: repeat(4, 1fr); 
+        grid-template-rows: repeat(5, 1fr);
+        gap: 2rem;
+    }
+    .card img {
+        width: 50%;
+        border-radius: 2rem;
+        filter: drop-shadow(5px 5px 5px black);
+    }
+    .section-contacto div,
+    .tienda-contacto,
+    .caja-formulario {
+        font-size: x-large;
+    }
+    
+}
