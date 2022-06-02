@@ -285,18 +285,14 @@ footer {
   padding-top: 5rem; }
   .main-devolucion .section-contacto {
     width: 100%;
-    padding-top: 4rem;
-    padding-bottom: 3rem; }
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
     .main-devolucion .section-contacto div {
       width: 90%;
       padding-left: 1rem;
-      font-size: small; }
+      font-size: large; }
       .main-devolucion .section-contacto div ul li {
         list-style-type: disc; }
-    .main-devolucion .section-contacto .img-politica {
-      width: 50px; }
-      .main-devolucion .section-contacto .img-politica img {
-        width: 100%; }
 
 .contenedor-noticias {
   width: 100%;
