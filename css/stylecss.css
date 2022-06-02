@@ -285,7 +285,7 @@ footer {
   padding-top: 5rem; }
   .main-devolucion .section-contacto {
     width: 100%;
-    padding-top: 2rem;
+    padding-top: 4rem;
     padding-bottom: 3rem; }
     .main-devolucion .section-contacto div {
       width: 90%;
@@ -293,17 +293,22 @@ footer {
       font-size: small; }
       .main-devolucion .section-contacto div ul li {
         list-style-type: disc; }
+    .main-devolucion .section-contacto .img-politica {
+      width: 50px; }
+      .main-devolucion .section-contacto .img-politica img {
+        width: 100%; }
 
-.container-fedex {
+.contenedor-noticias {
+  width: 100%;
+  padding-top: 1rem;
   justify-content: center;
-  text-align: left;
+  text-align: center;
   align-items: center;
   background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); }
-  .container-fedex img {
-    width: 70%;
-    padding-left: 30%;
-    display: flex;
-    justify-content: center; }
+  .contenedor-noticias div {
+    padding-bottom: 1rem; }
+    .contenedor-noticias div img {
+      width: 50%; }
 
 .btn-flotante {
   font-size: 16px;
@@ -447,7 +452,8 @@ footer {
     .caja-formulario form {
       width: 50vw; }
   .section-contacto {
-    width: 100%; }
+    width: 100%;
+    padding-top: 3rem; }
     .section-contacto div {
       width: 80%;
       padding-left: 2rem;
@@ -504,7 +510,8 @@ footer {
     .caja-formulario form {
       width: 50vw; }
   .section-contacto {
-    width: 100%; }
+    width: 100%;
+    padding-top: 3rem; }
     .section-contacto div {
       width: 80%;
       padding-left: 2rem;

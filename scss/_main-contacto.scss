@@ -33,7 +33,7 @@
 
     .section-contacto {
         width: 100%;
-        padding-top: 2rem;
+        padding-top: 4rem;
         padding-bottom: 3rem;
     
         div {
@@ -45,20 +45,33 @@
                 list-style-type: disc;
             }
         }
+
+        .img-politica {
+            width: 50px;
+        
+            img {
+                width: 100%;
+            }
+        
+        }
     }
 }
 
-.container-fedex {
+
+
+.contenedor-noticias {
+    width: 100%;
+    padding-top: 1rem;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     align-items: center;
     background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 
-    img {
-        width: 70%;
-        padding-left: 30%;
-        display: flex;
-        justify-content: center;
+    div {
+        img {
+            width: 50%;
+        }
+        padding-bottom: 1rem;
     }
 }
 
